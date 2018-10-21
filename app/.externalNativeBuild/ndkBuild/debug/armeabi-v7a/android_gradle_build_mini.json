@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/home/donolin/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/lib APP_STL\u003dc++_static clean"
+  ],
+  "libraries": {
+    "main-debug-armeabi-v7a": {
+      "artifactName": "main",
+      "buildCommand": "/home/donolin/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/lib APP_STL\u003dc++_static /media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libmain.so",
+      "abi": "armeabi-v7a",
+      "output": "/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libmain.so"
+    },
+    "SDL2-debug-armeabi-v7a": {
+      "artifactName": "SDL2",
+      "buildCommand": "/home/donolin/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/lib APP_STL\u003dc++_static /media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libSDL2.so",
+      "abi": "armeabi-v7a",
+      "output": "/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libSDL2.so"
+    }
+  }
+}

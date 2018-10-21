@@ -1,0 +1,17 @@
+Executable : /home/donolin/Android/Sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/jni/Android.mk
+APP_ABI=armeabi-v7a
+NDK_ALL_ABIS=armeabi-v7a
+NDK_DEBUG=1
+APP_PLATFORM=android-16
+NDK_OUT=/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/media/donolin/Dados/Biblioteca/Projetos/android-SDL2-HelloWorld/app/build/intermediates/ndkBuild/debug/lib
+APP_STL=c++_static
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
